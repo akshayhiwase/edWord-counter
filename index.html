@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="counter-continer">
+            <div class="counter-elements">
+                <h3 id="character">Characters:</h3>
+                <h3 id="words">Words:</h3>
+                <h3 id="whitespace">WhiteSpace:</h3>
+                <h3 id="lines"> Lines:</h3>
+            </div>
+            <div class="paraBox">
+
+
+                <textarea name="message" onkeyup="countChars(this);"></textarea>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
